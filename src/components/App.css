@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #545454;
+  position: relative;
+}
+
+a {
+  text-decoration: none !important;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #424242;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      180deg,
+      #333334 0%,
+      var(--secondary_color) 99%
+    );
+    border-radius: 100px;
+  }
+ 

@@ -1,0 +1,15 @@
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 64px;
+
+}
+.header_logo_wrapper img{
+    width: 64px;
+}
+.header_navigation_wrapper{
+    display: flex;
+    align-items: center;
+
+}

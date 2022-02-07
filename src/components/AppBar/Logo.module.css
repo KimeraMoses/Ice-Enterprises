@@ -1,0 +1,13 @@
+.logo_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--secondary_color);
+}
+.logo_wrapper:hover{
+    color: var(--bg_color);
+}
+.logo{
+    width: 52px;
+    height: auto;
+}

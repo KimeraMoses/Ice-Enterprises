@@ -1,0 +1,8 @@
+node_modules
+.gitylab-ci.yml
+firebase-debug.log
+.firebase
+.github
+build
+.firebaserc
+firebase.json

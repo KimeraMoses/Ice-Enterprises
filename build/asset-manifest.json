@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3435679b.css",
-    "main.js": "/static/js/main.37ca5d16.js",
+    "main.css": "/static/css/main.86dbbd06.css",
+    "main.js": "/static/js/main.24b12cf1.js",
     "static/media/Mask-Group.png": "/static/media/Mask-Group.264a8d29a382ce94161d.png",
     "index.html": "/index.html",
-    "main.3435679b.css.map": "/static/css/main.3435679b.css.map",
-    "main.37ca5d16.js.map": "/static/js/main.37ca5d16.js.map"
+    "main.86dbbd06.css.map": "/static/css/main.86dbbd06.css.map",
+    "main.24b12cf1.js.map": "/static/js/main.24b12cf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3435679b.css",
-    "static/js/main.37ca5d16.js"
+    "static/css/main.86dbbd06.css",
+    "static/js/main.24b12cf1.js"
   ]
 }

@@ -5,7 +5,9 @@ import SocialIcons from "../SocialIcons/SocialIcons";
 import NavigationMenu from "../Navigation/NavigationMenu";
 import data from "../../locales/en.json";
 import classes from "./Footer.module.css";
-import SocialIcon, { SocialMedia } from "../../containers/SocialIcon/SocialIcon";
+import SocialIcon, {
+  SocialMedia,
+} from "../../containers/SocialIcon/SocialIcon";
 
 const Footer = () => {
   let getCurrentYear = new Date().getFullYear();
@@ -27,6 +29,7 @@ const Footer = () => {
           <a href="/">{footerData.poweredBy.linkText}</a>
         </p>
       </div>
+
       <div className={classes.ice__footer__menu}>
         <ul>
           <li>

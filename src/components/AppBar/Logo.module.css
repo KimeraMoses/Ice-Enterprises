@@ -1,13 +1,15 @@
-.logo_wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: var(--secondary_color);
+.logo_wrapper {
+  display: flex;
+  align-items: center;
 }
-.logo_wrapper:hover{
-    color: var(--bg_color);
+
+.logo {
+  width: 48px;
+  height: auto;
 }
-.logo{
-    width: 52px;
-    height: auto;
+
+@media (max-width: 600px) {
+  .logo{
+    width: 46px;
+  }
 }

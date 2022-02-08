@@ -14,13 +14,13 @@ import { Paper } from "@material-ui/core";
 import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
 import "./App.css";
-import Header from "./AppBar/Header";
+import AppBar from "./AppBar/AppBar";
 
 const App = () => {
   return (
     <Router>
       <Paper elevation={0} square>
-        <Header />
+        <AppBar/>
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/benefits" exact element={<Home />} />

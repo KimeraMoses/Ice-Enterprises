@@ -4,6 +4,12 @@
 }
 
 .logo {
-  width: 52px;
+  width: 48px;
   height: auto;
+}
+
+@media (max-width: 600px) {
+  .logo{
+    width: 46px;
+  }
 }

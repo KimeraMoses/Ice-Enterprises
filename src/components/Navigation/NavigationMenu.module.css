@@ -38,12 +38,13 @@
     margin: 8px 0px;
     text-align: center;
     display: none;
-    background-color: var(--bg_color);
+    background-color: #000000e7;
     width: 100%;
   }
   .navbar_wrapper.menuOpen {
     display: block;
     position: fixed;
+    top: 56px;
     z-index: 99;
     transition: all 0.2s ease-in-out;
     box-shadow: var(--box_shadow);
@@ -57,10 +58,11 @@
     font-size: 15px;
     padding: 10px 0;
     color: #fff;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.247);
   }
 
   .nav_link.active {
-    color: #fff;
+    color: var(--primary_color);
   }
   .nav_menu li a {
     border-right: none!important;

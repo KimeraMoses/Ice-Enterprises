@@ -20,6 +20,7 @@ const App = () => {
   return (
     <Router>
       <Paper elevation={0} square>
+        <Header />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/benefits" exact element={<Home />} />

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "headerMenu": {
+      "howItWorks": "How it Works",
+      "benefits": "Benefits",
+      "faqs": "FAQs",
+      "ourTeam": "Our Team",
+      "ourStory": "Our Story"
+    }
+  },
+  "pages": {
+    "landing":{
+        "howitWorks": ""
+    }
+  },
+  "footer": {
+    "poweredBy": {
+      "text": "Powered by ",
+      "linkText": "NFT Consulting"
+    },
+    "copyright": "Ice Enterprises, LLC. All rights reserved.",
+    "footerMenu": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    }
+  }
+}

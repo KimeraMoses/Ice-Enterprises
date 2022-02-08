@@ -2,8 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 64px;
+    padding: 5px 64px;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
 
+
+}
+.header_wrapper.header_bg_dark{
+    background-color: #000000;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
 }
 .header_logo_wrapper img{
     width: 64px;
@@ -12,4 +20,9 @@
     display: flex;
     align-items: center;
 
+}
+@media screen and (max-width: 689px) {
+    .header_logo_wrapper img{
+        width: 45px;
+    }
 }

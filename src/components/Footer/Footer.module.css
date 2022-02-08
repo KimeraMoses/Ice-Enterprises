@@ -54,3 +54,10 @@
 .powered_by_content img {
   width: 14px;
 }
+
+@media screen and (max-width: 689px) {
+  .footer_wrapper{
+      flex-direction: column;
+      padding: 20px;
+  }
+}

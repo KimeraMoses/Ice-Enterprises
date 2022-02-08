@@ -1,10 +1,6 @@
-.homepage_wrapper{
-    color: #fff;
-}
-.home_top_bar {
-    padding: 20px;
+.home_slider_section_wrapper {
     height: 85vh;
-    position: relative;
+    margin-top: -100px;
     background: url("../../assets/Mask-Group.png") no-repeat;
     background-size: cover;
     background-position: center bottom;

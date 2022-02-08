@@ -1,10 +1,11 @@
 import React  from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./NavigationMenu.module.css";
+import data from "../../locales/en.json"
 
 const NavigationMenu = (props) => {
   const { menuOpen, setMenuOpen } = props;
-  
+  const NavData = data.header.headerMenu
   const NavMenuItem = ({itemTitle,itemLink }) => {
     return (
       <li className={classes.menu_item} onClick={() => setMenuOpen(false)}>
@@ -23,11 +24,11 @@ const NavigationMenu = (props) => {
   return (
     <div className={`${classes.navbar_wrapper} ${menuOpen? classes.menuOpen: ''}`}>
       <ul className={`${classes.nav_menu} ${menuOpen ? classes.active : ""}`}>
-        <NavMenuItem itemTitle="How It Works" itemLink="/" />
-        <NavMenuItem itemTitle="Benefits" itemLink="/benefits" />
-        <NavMenuItem itemTitle="FAQs" itemLink="/faqs" />
-        <NavMenuItem itemTitle="Our Team" itemLink="/our-team" />
-        <NavMenuItem itemTitle="Our Story" itemLink="/our-story" />
+        <NavMenuItem itemTitle={NavData.howItWorks} itemLink="/" />
+        <NavMenuItem itemTitle={NavData.benefits} itemLink="/benefits" />
+        <NavMenuItem itemTitle={NavData.faqs} itemLink="/faqs" />
+        <NavMenuItem itemTitle={NavData.ourTeam} itemLink="/our-team" />
+        <NavMenuItem itemTitle={NavData.ourStory} itemLink="/our-story" />
       </ul>
     </div>
   );

@@ -27,11 +27,11 @@ const AppBar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [])
 
   return (
     <>
-      <div className={`${classes.ice__AppBar_wrapper} ${scrollPosition > 413 ? classes.header_bg_dark : ""}`}>
+      <div className={`${classes.ice__AppBar_wrapper} ${scrollPosition > 350 ? classes.header_bg_dark : ""}`}>
         <div className={classes.ice__AppBar_logo_Wrapper}>
           <Logo setMenuOpen={setMenuOpen} />
         </div>

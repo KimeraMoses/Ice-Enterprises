@@ -1,7 +1,7 @@
 .home_slider_section_wrapper {
     height: 85vh;
     margin-top: -100px;
-    background: url("../../assets/Mask-Group.png") no-repeat;
+    background: url("../../../assets/Mask-Group.png") no-repeat;
     background-size: cover;
     background-position: center bottom;
     background-color: #000000;

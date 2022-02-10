@@ -1,6 +1,5 @@
 .ice__AppBar_wrapper {
   z-index: 1100;
-  height: 64px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -14,11 +13,13 @@
   background-color: transparent;
   overflow: hidden;
   background-color: transparent;
-  padding: 10px 0;
+  padding: 20px 80px;
+  transition: all 0.6s ease-in-out;
 }
-.ice__AppBar_wrapper.header_bg_dark{
+.ice__AppBar_wrapper.header_bg_dark {
   background-color: #000000;
   box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+  padding: 10px 80px;
 }
 
 .ice__AppBar_logo_Wrapper {
@@ -26,14 +27,13 @@
   margin: 0;
   display: flex;
   float: left;
-  margin-left: 30px;
   padding-top: 5px;
 }
 .ice__AppBar_spacer {
   flex: 1;
 }
-.navbar_mobile_menu{
-    z-index: 99;
+.navbar_mobile_menu {
+  z-index: 99;
 }
 
 .ice__action_btn_wrapper {
@@ -50,12 +50,21 @@
 .menu_btn_toggle svg {
   color: #fff;
 }
+@media screen and (max-width: 920px) {
+  .ice__AppBar_wrapper {
+    padding: 20px 40px;
+  }
+  .ice__AppBar_wrapper.header_bg_dark {
+    padding: 20px 40px;
+  }
+}
 
-@media (max-width: 600px) {
-  .ice__AppBar_wrapper{
-    padding: 10px 5px;
+@media (max-width: 689px) {
+  .ice__AppBar_wrapper {
+    padding: 10px 20px;
   }
-  .ice__AppBar_logo_Wrapper img {
-    margin-left: -20px;
+  .ice__AppBar_wrapper.header_bg_dark {
+    padding: 10px 20px;
   }
+
 }

@@ -11,10 +11,10 @@ import { Paper } from "@material-ui/core";
 //===REDUX STORE IMPORTS===
 
 //===COMPONENT IMPORTS===
-import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
 import "./App.css";
 import AppBar from "./AppBar/AppBar";
+import Home from "./LandingPage/Home/Home";
 
 const App = () => {
   return (

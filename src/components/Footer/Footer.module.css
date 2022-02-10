@@ -1,6 +1,6 @@
 .footer_wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #000000;
   align-items: center;
   color: #fff;
@@ -12,8 +12,7 @@
   font-family: inherit;
   font-weight: 500;
 }
-.footer_wrapper_left,
-.footer__wrapper_right {
+.ice__terms_social_wrapper {
   display: flex;
   align-items: center;
 }
@@ -45,24 +44,14 @@
   font-weight: 500;
   margin-bottom: 0;
 }
-.powered_by_content_icon {
-  padding: 10px;
-  width: 28px;
-  height: 28px;
-  border: 2px solid #fff;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin: 5px;
-}
+
 .powered_by_content img {
   width: 14px;
 }
 
 @media screen and (max-width: 689px) {
   .footer_wrapper {
+    justify-content: center;
     flex-wrap: wrap-reverse;
     padding: 30px 10px;
   }

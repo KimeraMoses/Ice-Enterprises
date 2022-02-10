@@ -1,7 +1,7 @@
 .social_icons {
     padding: 10px;
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     border: 2px solid #fff;
     text-align: center;
     display: flex;
@@ -11,7 +11,7 @@
     margin: 5px;
   }
   .social_icons svg {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
   }
   

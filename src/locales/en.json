@@ -9,13 +9,188 @@
     }
   },
   "pages": {
-    "landing":{
-        "howitWorks": ""
+    "landing": {
+      "heroSlider": {
+        "heading": "ICE Enterprises Presents",
+        "description": "Ice Enterprises offers a safe, secure, and frictionless platform that allows OWNERS of ICE Poker Wearables to rent their NFTs to PLAYERS at rates they set on a short-, medium- or long-term basis."
+      },
+      "howitWorks": {
+        "heading": "How It Works?",
+        "cards": [
+          {
+            "title": "Owner Action",
+            "description": "Connect your preferred wallet and list an available wearable for rent. OWNERS are free to set the rental fee (min. 50 ICE per day) and have a variety of rental terms to choose from. A 4% service fee is assessed and deducted automatically from the daily rental fees you will receive."
+          },
+          {
+            "title": "Player Action",
+            "description": "Scroll through the list of available items and click on the wearable you’d like to rent. Simply connect your wallet to submit payment. A 2% rental fee is added to the total rental cost."
+          },
+          {
+            "title": "Secure Escrow Account",
+            "description": "Funds from PLAYERS are held in an escrow account - secured by smart contract - that provides automated prorated payments to OWNERS on a daily basis."
+          },
+          {
+            "title": "Notification & Delegation",
+            "description": "OWNERS are notified of rental requests, and have 3 hours to release the rental upon server reset to PLAYERS. If a rental is not assigned within the allotted time frame, all funds are automatically and immediately returned to that PLAYER (including the service fee)."
+          }
+        ]
+      },
+      "benefits": {
+        "heading": "Benefits",
+        "cards": [
+          {
+            "title": "Owner",
+            "summary": "I'm looking to rent my wearable.",
+            "list": [
+              "Generate more ICE per day/wearable while obtaining more consistent returns.",
+              "Convenience! With automated payments, there is no need to check-in with a renting PLAYER each day.",
+              "Added ICE utility across the ecosystem."
+            ],
+            "btnText": "List My Wearable"
+          },
+          {
+            "title": "Player",
+            "summary": "I'm looking to rent a wearable.",
+            "list": [
+              "Safe and secure approach! If a wearable is ever undelegated, remaining funds are sent back to your wallet.",
+              "Certainty that OWNER actually has an available wearable for delegation.",
+              "Browse a library of available options instead of spamming discord against competition."
+            ],
+            "btnText": "Rent Now"
+          }
+        ]
+      },
+      "faqs": {
+        "heading": "FAQs",
+        "list": [
+          {
+            "title": "Do my wearables ever leave my wallet?",
+            "description": "No. We serve strictly as an intermediary between OWNERS and PLAYERS looking to broker a rental relationship. Your wearables never leave your wallet."
+          },
+          {
+            "title": "What are the fees for using the service?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+          },
+          {
+            "title": "Can I track how much of the rental payment has been released and how much longer a rental is scheduled to last?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+          },
+          {
+            "title": "ICE Poker already has built-in splits for an OWNER to earn ICE when delegating their wearables. Why do I have to pay again?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+          },
+          {
+            "title": "How safe is this platform? How do I know that if I pay the entire rental and service fees upfront I’ll have access to the wearable that I requested?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+          },
+          {
+            "title": "How do I know that the OWNER really owns the wearable they are offering?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+          },
+          {
+            "title": "What happens if an OWNER forgets to delegate or (undelegates) after confirming a rental?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+          }
+        ]
+      },
+      "ourTeam": {
+        "heading": "Our Team",
+        "cards": [
+          {
+            "name": "Matt",
+            "role": "Co-Founder",
+            "discord": {
+              "title": "Discord",
+              "value": "Howard0x"
+            },
+            "background": {
+              "title": "Background",
+              "value": "MGMT Consulting (Big4/Boutique)"
+            },
+            "specialities": {
+              "title": "Specialities",
+              "value": "Blockchain/Crypto, FinTech/DeFi, Marketing"
+            },
+            "sidehustle": {
+              "title": "Side-Hustle + Fun Fact",
+              "value": "ICE Poker Guild Manager + Aspiring Golfer"
+            }
+          },
+          {
+            "name": "Steven",
+            "role": "Co-Founder",
+            "discord": {
+              "title": "Discord",
+              "value": "BlackKnight84"
+            },
+            "background": {
+              "title": "Background",
+              "value": "Lawyer"
+            },
+            "specialities": {
+              "title": "Specialities",
+              "value": "Internet, Media and Telecom Policy"
+            },
+            "sidehustle": {
+              "title": "Side-Hustle + Fun Fact",
+              "value": "COO Tech Startup + Finished 30 Marathons"
+            }
+          }
+        ]
+      },
+      "ourStory": {
+        "heading": "Our Story",
+        "paragraph": [
+          {
+            "blueText": "Our team minted two genesis ICE Suit wearables in October 2021",
+            "blackTextR": "and we continue adding to our portfolio whenever possible. We have been amazed to see the phenomenal growth and development of ICE Poker in such a short time. We have also followed with great interest how the growing user base coupled with pent up demand has led to the development of an ad hoc rental market."
+          },
+          {
+            "blueText": "complaints of fraud and abuse are rampant on Discord",
+            "blackTextL": "This rental market, however, has not yet been optimized. There is no easy way to effectuate these transactions, and",
+            "blackTextR": "Players have no certainty that parties representing themselves as Owners really have the wearables. What happens if an OWNER forgets to delegate or (undelegates) after confirming a rental? they are offering; have no recourse should they send a rental fee in advance to a bad actor; and not surprisingly are hesitant to commit funds on more than a day-to-day basis."
+          },
+          {
+            "blueText": "While Owners would welcome the extra revenue a rental would provide, there is no convenient way to list wearables and find Players.",
+            "blackTextL": "The current system is not ideal for Owners either.",
+            "blackTextR": "And even if a medium- or longer-term rental is agreed upon, because Players are rightfully reluctant to forward a long-term rental fee, Owners need to keep track of on a daily basis to ensure payments have been made."
+          },
+          {
+            "blueText": "we knew that Players must have confidence to rent knowing that the wearable is as advertised;",
+            "blackTextL": "As our portfolio of wearables grew, we faced these problems every day. That is why we set out to design a system that eased our own administrative burden. But for it to work,",
+            "blackTextR": "their rental fee would be secure; and they’d have recourse to get the fee back if they were undelaged or something went awry."
+          },
+          {
+            "blueText": "we quickly realized that our solution would benefit everyone in the community.",
+            "blackTextL": "After successfully accomplishing these objectives,",
+            "blackTextR": "And thus, the Ice Enterprises’ Rent-2-Play platform was born. We hope that you enjoy this service and look forward to growing alongside Decentral Games, ICE Poker, and the amazing team and community behind this disruptive P2E opportunity."
+          }
+        ],
+        "cards": [
+          {
+            "name": "Bomber Pants",
+            "levels": {
+              "label": "Levels",
+              "value": 2
+            },
+            "percentage": {
+              "label": "Multiplier",
+              "value": 25
+            },
+            "buttons": {
+              "btnGreen": "Checked In",
+              "btnGray": "Delegated to 0xa7…",
+              "btnBlack": "Undelegate",
+              "btnBlue": "Upgrade"
+            }
+          }
+        ]
+      }
     }
   },
   "footer": {
     "poweredBy": {
-      "text": "Powered by ",
+      "text": "Powered by",
       "linkText": "NFT Consulting"
     },
     "copyright": "Ice Enterprises, LLC. All rights reserved.",

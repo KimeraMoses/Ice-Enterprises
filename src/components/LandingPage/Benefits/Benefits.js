@@ -6,7 +6,6 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 import data from "../../../locales/en.json";
 
 const Benefits = () => {
-  console.log(data.pages.landing.benefits);
   const benefitsData = data.pages.landing.benefits;
   return (
     <section className={classes.benefits_section_wrapper}>

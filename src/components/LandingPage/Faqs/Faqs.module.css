@@ -1,0 +1,36 @@
+.faqs_section_wrapper {
+  padding: 60px 80px 40px;
+}
+.faqs_row_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 30px;
+}
+.faqs_list {
+  width: 70%;
+  padding-right: 60px;
+}
+.faqs__side_bunner {
+  width: 30%;
+}
+.faqs__side_bunner img {
+  width: 100%;
+}
+
+@media screen and (max-width: 689px) {
+  .faqs_section_wrapper {
+    padding: 40px 30px;
+  }
+  .faqs_row_wrapper {
+    flex-direction: column;
+  }
+  .faqs_list,
+  .faqs__side_bunner {
+    width: 100%;
+  }
+  .faqs_list {
+    padding: 0;
+    padding-bottom: 40px;
+  }
+}

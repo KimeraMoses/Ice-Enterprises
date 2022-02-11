@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 import classes from "./SectionHeading.module.css";
 
-const SectionHeading = () => {
+const SectionHeading = (props) => {
+  const { title } = props;
   return (
-      <div className={classes.section_heading_wrapper}>
-          <h1>How It Works?</h1>
-      </div>
-  )
+    <div className={classes.section_heading_wrapper}>
+      <h1>{title}</h1>
+    </div>
+  );
 };
 
 export default SectionHeading;

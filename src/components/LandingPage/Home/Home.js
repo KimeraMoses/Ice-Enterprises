@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div className={classes.homepage_wrapper}>
       <div className={classes.home_slider_section_wrapper}></div>
-      {/* <Benefits /> */}
       <HowitWorks />
+      <Benefits />
     </div>
   );
 };

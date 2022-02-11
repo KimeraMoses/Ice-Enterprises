@@ -14,7 +14,7 @@ const Benefits = () => {
         <SectionHeading title={benefitsData.heading} />
         <Row className={classes.benefits_row_wrapper}>
           {benefitsData.cards.map((card, index) => {
-            return <BenefitsCard cardData={card} num={index} />;
+            return <BenefitsCard cardData={card} key={index} />;
           })}
         </Row>
       </Container>

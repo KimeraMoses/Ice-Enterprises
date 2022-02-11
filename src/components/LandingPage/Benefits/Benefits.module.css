@@ -1,5 +1,5 @@
 .benefits_section_wrapper {
-  padding: 100px 80px;
+  padding: 0px 80px;
 }
 .benefits_container {
   padding: 0 !important;
@@ -10,6 +10,6 @@
 
 @media screen  and (max-width: 689px) {
     .benefits_section_wrapper{
-        padding: 100px 30px;
+        padding: 0px 30px;
     }
 }

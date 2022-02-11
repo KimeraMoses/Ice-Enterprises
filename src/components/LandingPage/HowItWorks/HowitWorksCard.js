@@ -7,7 +7,6 @@ import {
   PlayerIcon,
   SecureIcon,
 } from "../../UI/Icons/Icons";
-import { SvgIcon } from "@material-ui/core";
 
 const HowitWorksCard = ({ cardData, num }) => {
   const { title, description } = cardData;

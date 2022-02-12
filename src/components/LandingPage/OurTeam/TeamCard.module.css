@@ -1,75 +1,82 @@
-.team_card_wrapper{
-    background-color: #262626;
-    padding: 10px;
-    max-width: 400px;
-    border-radius: 20px;
-    /* margin: 10px; */
+.team_card_wrapper {
+  background-color: #262626;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 20px;
 }
-.team_card_wrapper:first-child{
-    margin-right: 10px;
+.team_card_wrapper:first-child {
+  margin-right: 10px;
 }
-.team_avatar_wrapper{
-    width: 100%;
+.team_avatar_wrapper {
+  width: 100%;
+  user-select: none;
 }
-.team_avatar_wrapper img{
-    width: 100%;
-    border-radius: 20px;
+.team_avatar_wrapper img {
+  width: 100%;
+  border-radius: 20px;
 }
-.team_info_wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px 5px;
-    text-align: left;
+.team_info_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 5px;
+  text-align: left;
 }
-.name_role_row{
-    display: flex;
-    justify-content: space-between;
+.name_role_row {
+  display: flex;
+  justify-content: space-between;
 }
 .role,
-.name{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
-.role{
-    color: var(--primary_color);
+.role {
+  color: var(--primary_color);
 }
+.discord {
+  font-size: 12px;
+}
+
+.team_name_wrapper,
 .specialities,
 .hustle,
-.background{
-    padding: 10px 0;
+.background {
+  padding: 10px 0;
+}
+.hustle {
+  padding-bottom: 0px;
 }
 
 .team_info_wrapper p,
-.discord{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
+.discord {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.discord{
-    color: #8C8C8C;
+.discord {
+  color: #8c8c8c;
 }
-.team_info_wrapper p{
-    color: #ffffff;
+.team_info_wrapper p {
+  color: #ffffff;
 }
-.text_upper{
-    text-transform: uppercase;
-    color: #8C8C8C;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
+.text_upper {
+  text-transform: uppercase;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 689px) {
- .team_card_wrapper{
-     margin: 10px 0;
-     max-width: 100%;
- }
-
+  .team_card_wrapper {
+    margin: 10px 0;
+    max-width: 100%;
+  }
 }

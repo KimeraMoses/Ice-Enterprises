@@ -1,16 +1,19 @@
 import react from "react";
 import classes from "./OurTeam.module.css";
 import TeamCard from "./TeamCard";
+import data from "../../../locales/en.json";
 
 const OurTeam = () => {
+  const teamData = data.pages.landing.ourTeam;
   return (
     <section className={classes.our_team_section_wrapper}>
       <div className={classes.section_header}>
-        <h3>Our Team</h3>
+        <h3>{teamData.heading}</h3>
       </div>
       <div className={classes.our_team_row_wrapper}>
-          <TeamCard/>
-          <TeamCard/>
+        {teamData.cards.map((team, index) => {
+          return <TeamCard Team={team} key={index} />;
+        })}
       </div>
     </section>
   );

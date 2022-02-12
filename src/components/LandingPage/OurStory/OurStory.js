@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../../assets/Image.png";
+import Image from "../../../assets/our-story_bunner.png";
 import classes from "./OurStory.module.css";
 import data from "../../../locales/en.json";
 

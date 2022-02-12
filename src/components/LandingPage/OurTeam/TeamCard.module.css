@@ -1,0 +1,75 @@
+.team_card_wrapper{
+    background-color: #262626;
+    padding: 10px;
+    max-width: 400px;
+    border-radius: 20px;
+    /* margin: 10px; */
+}
+.team_card_wrapper:first-child{
+    margin-right: 10px;
+}
+.team_avatar_wrapper{
+    width: 100%;
+}
+.team_avatar_wrapper img{
+    width: 100%;
+    border-radius: 20px;
+}
+.team_info_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 5px;
+    text-align: left;
+}
+.name_role_row{
+    display: flex;
+    justify-content: space-between;
+}
+.role,
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.role{
+    color: var(--primary_color);
+}
+.specialities,
+.hustle,
+.background{
+    padding: 10px 0;
+}
+
+.team_info_wrapper p,
+.discord{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.discord{
+    color: #8C8C8C;
+}
+.team_info_wrapper p{
+    color: #ffffff;
+}
+.text_upper{
+    text-transform: uppercase;
+    color: #8C8C8C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 689px) {
+ .team_card_wrapper{
+     margin: 10px 0;
+     max-width: 100%;
+ }
+
+}

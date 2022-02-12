@@ -12,7 +12,7 @@ const BenefitsCard = ({ cardData, key }) => {
   return (
     <Col
       lg={6}
-      md={6}
+      md={12}
       sm={12}
       className={classes.benefits_card_wrapper}
       key={key}

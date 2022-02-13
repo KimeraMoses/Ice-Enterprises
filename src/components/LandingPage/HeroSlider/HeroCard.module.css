@@ -1,7 +1,6 @@
 .hero_card_wrapper{
     background-color: #262626;
     color: #ffffff;
-    /* max-width: 410px; */
     min-width: 400px;
     margin: 10px;
     border-radius: 20px;
@@ -20,13 +19,6 @@
     font-weight: 400;
 }
 
-
-/* @media screen and (min-width: 946px) {
-.hero_card_wrapper{
-    width: 420px; 
-}
-
-} */
 
 @media screen  and (max-width: 689px) {
     .benefits_section_wrapper{

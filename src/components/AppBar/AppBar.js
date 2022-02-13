@@ -31,7 +31,7 @@ const AppBar = () => {
 
   return (
     <>
-      <div className={`${classes.ice__AppBar_wrapper} ${scrollPosition > 350 ? classes.header_bg_dark : ""}`}>
+      <div className={`${classes.ice__AppBar_wrapper} ${scrollPosition > 485 ? classes.header_bg_dark : ""}`}>
         <div className={classes.ice__AppBar_logo_Wrapper}>
           <Logo setMenuOpen={setMenuOpen} />
         </div>

@@ -19,6 +19,7 @@
   font-weight: 500;
   transition: all .6s ease-in-out;
   cursor: pointer;
+  user-select: none;
 }
 
 .nav_link.active,

@@ -2,11 +2,14 @@ import React from "react";
 import Image from "../../../assets/our-story_bunner.png";
 import classes from "./OurStory.module.css";
 import data from "../../../locales/en.json";
+import ScrollToSection from "../SectionHeading/ScrollToSection";
 
 const OurStory = () => {
   const storyData = data.pages.landing.ourStory;
   return (
-    <section className={classes.our_story_section_wrapper}>
+    <>
+    <ScrollToSection id="our-story"/>
+    <section className={classes.our_story_section_wrapper} >
       <div className={classes.our_story_header}>
         <h3>{storyData.heading}</h3>
       </div>
@@ -27,6 +30,7 @@ const OurStory = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

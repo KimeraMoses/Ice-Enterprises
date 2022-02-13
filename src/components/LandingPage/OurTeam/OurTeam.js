@@ -2,11 +2,14 @@ import react from "react";
 import classes from "./OurTeam.module.css";
 import TeamCard from "./TeamCard";
 import data from "../../../locales/en.json";
+import ScrollToSection from "../SectionHeading/ScrollToSection";
 
 const OurTeam = () => {
   const teamData = data.pages.landing.ourTeam;
   return (
-    <section className={classes.our_team_section_wrapper}>
+    <>
+    <ScrollToSection id="our-team"/>
+    <section className={classes.our_team_section_wrapper} >
       <div className={classes.section_header}>
         <h3>{teamData.heading}</h3>
       </div>
@@ -16,6 +19,7 @@ const OurTeam = () => {
         })}
       </div>
     </section>
+    </>
   );
 };
 

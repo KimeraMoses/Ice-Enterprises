@@ -1,8 +1,6 @@
 import React from "react";
-import Logo from "../../assets/footer-icon.png";
 import { Link } from "react-router-dom";
 import SocialIcons from "../SocialIcons/SocialIcons";
-import NavigationMenu from "../Navigation/NavigationMenu";
 import data from "../../locales/en.json";
 import classes from "./Footer.module.css";
 import SocialIcon, {

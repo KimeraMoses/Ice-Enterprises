@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.06880699.css",
-    "main.js": "/static/js/main.affe2c1e.js",
+    "main.css": "/static/css/main.2beeaafa.css",
+    "main.js": "/static/js/main.bce2d038.js",
+    "static/media/our-story_bunner.png": "/static/media/our-story_bunner.5c8362fe01146c8841d1.png",
     "static/media/Mask-Group.png": "/static/media/Mask-Group.264a8d29a382ce94161d.png",
+    "static/media/User-Avater1.png": "/static/media/User-Avater1.04f29f18e60356b72271.png",
+    "static/media/User-Avater2.png": "/static/media/User-Avater2.8d6b938b1fd67bc6d21c.png",
+    "static/media/Player-Image.png": "/static/media/Player-Image.25717eee7283b720cdf3.png",
+    "static/media/Owner-Image.png": "/static/media/Owner-Image.d7fb8c3263c0ae295dfa.png",
+    "static/media/Faq-Bunner.png": "/static/media/Faq-Bunner.1559d536acf3487dc948.png",
+    "static/media/heroImage.png": "/static/media/heroImage.35867e15ed408628459f.png",
     "index.html": "/index.html",
-    "main.06880699.css.map": "/static/css/main.06880699.css.map",
-    "main.affe2c1e.js.map": "/static/js/main.affe2c1e.js.map"
+    "main.2beeaafa.css.map": "/static/css/main.2beeaafa.css.map",
+    "main.bce2d038.js.map": "/static/js/main.bce2d038.js.map"
   },
   "entrypoints": [
-    "static/css/main.06880699.css",
-    "static/js/main.affe2c1e.js"
+    "static/css/main.2beeaafa.css",
+    "static/js/main.bce2d038.js"
   ]
 }

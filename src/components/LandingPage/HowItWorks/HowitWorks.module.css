@@ -1,0 +1,15 @@
+.howitworks_section_wrapper {
+    padding: 80px 80px;
+  }
+  .howitworks_container {
+    padding: 0 !important;
+  }
+  .howitworks_row_wrapper {
+    margin-top: 60px!important;
+  }
+  
+  @media screen  and (max-width: 689px) {
+      .howitworks_section_wrapper{
+          padding: 60px 30px;
+      }
+  }

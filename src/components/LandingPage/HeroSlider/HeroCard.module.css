@@ -1,0 +1,45 @@
+.hero_card_wrapper{
+    background-color: #262626;
+    color: #ffffff;
+    /* max-width: 410px; */
+    min-width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.hero_card{
+    width: 100%;
+    padding: 20px;
+}
+.hero_card h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hero_card p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* @media screen and (min-width: 946px) {
+.hero_card_wrapper{
+    width: 420px; 
+}
+
+} */
+
+@media screen  and (max-width: 689px) {
+    .benefits_section_wrapper{
+        padding: 0px 30px;
+    }
+    .hero_card_wrapper{
+        min-width: 350px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .hero_card_wrapper{
+     min-width: 200px;
+    }
+}

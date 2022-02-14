@@ -1,5 +1,5 @@
 .howitworks_section_wrapper {
-    padding: 80px 80px;
+    padding: 80px 80px 10px;
   }
   .howitworks_container {
     padding: 0 !important;
@@ -10,6 +10,6 @@
   
   @media screen  and (max-width: 689px) {
       .howitworks_section_wrapper{
-          padding: 60px 30px;
+          padding: 60px 30px 10px;
       }
   }

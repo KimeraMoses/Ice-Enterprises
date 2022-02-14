@@ -1,21 +1,21 @@
 import React from "react";
 import Image from "../../../assets/our-story_bunner.png";
 import classes from "./OurStory.module.css";
-import data from "../../../locales/en.json";
 import ScrollToSection from "../SectionHeading/ScrollToSection";
+import { useTranslation } from "react-i18next";
 
 const OurStory = () => {
-  const storyData = data.pages.landing.ourStory;
+  const { t } = useTranslation();
   return (
     <>
-    <ScrollToSection id="our-story"/>
+    {/* <ScrollToSection id="our-story"/> */}
     <section className={classes.our_story_section_wrapper} >
       <div className={classes.our_story_header}>
-        <h3>{storyData.heading}</h3>
+        <h3>{t("pages.landing.ourStory.heading")}</h3>
       </div>
       <div className={classes.our_story_row_wrapper}>
         <div className={classes.our_story_content}>
-          {storyData.paragraph.map((paragragh, index) => {
+          {t("pages.landing.ourStory.paragraph", { returnObjects: true }).map((paragragh, index) => {
             return (
               <p key={index}>
                 {paragragh.blackTextL}{" "}

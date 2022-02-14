@@ -1,24 +1,26 @@
 import react from "react";
 import classes from "./OurTeam.module.css";
 import TeamCard from "./TeamCard";
-import data from "../../../locales/en.json";
 import ScrollToSection from "../SectionHeading/ScrollToSection";
+import { useTranslation } from "react-i18next";
 
 const OurTeam = () => {
-  const teamData = data.pages.landing.ourTeam;
+  const { t } = useTranslation();
   return (
     <>
-    <ScrollToSection id="our-team"/>
-    <section className={classes.our_team_section_wrapper} >
-      <div className={classes.section_header}>
-        <h3>{teamData.heading}</h3>
-      </div>
-      <div className={classes.our_team_row_wrapper}>
-        {teamData.cards.map((team, index) => {
-          return <TeamCard Team={team} key={index} />;
-        })}
-      </div>
-    </section>
+      <section className={classes.our_team_section_wrapper}>
+        <div className={classes.section_header}>
+          <h3>{t("pages.landing.ourTeam.heading")}</h3>
+        </div>
+        <div className={classes.our_team_row_wrapper}>
+          {t("pages.landing.ourTeam.cards", { returnObjects: true }).map(
+            (team, index) => {
+              return <TeamCard Team={team} key={index} />;
+            }
+          )}
+        </div>
+      </section>
+      <ScrollToSection id="our-story" />
     </>
   );
 };

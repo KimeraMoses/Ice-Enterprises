@@ -2,11 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import classes from "./NavigationMenu.module.css";
-import data from "../../locales/en.json";
+import { useTranslation } from "react-i18next";
 
 const NavigationMenu = (props) => {
   const { menuOpen, setMenuOpen } = props;
-  const NavData = data.header.headerMenu;
+  const { t } = useTranslation();
   const NavMenuItem = ({ itemTitle, itemLink }) => {
     return (
       <li className={classes.menu_item}>
@@ -30,11 +30,11 @@ const NavigationMenu = (props) => {
       }`}
     >
       <ul className={`${classes.nav_menu} ${menuOpen ? classes.active : ""}`}>
-        <NavMenuItem itemTitle={NavData.howItWorks} itemLink="howItWorks" />
-        <NavMenuItem itemTitle={NavData.benefits} itemLink="benefits" />
-        <NavMenuItem itemTitle={NavData.faqs} itemLink="faqs" />
-        <NavMenuItem itemTitle={NavData.ourTeam} itemLink="our-team" />
-        <NavMenuItem itemTitle={NavData.ourStory} itemLink="our-story" />
+        <NavMenuItem itemTitle={t("header.headerMenu.howItWorks")} itemLink="howItWorks" />
+        <NavMenuItem itemTitle={t("header.headerMenu.benefits")} itemLink="benefits" />
+        <NavMenuItem itemTitle={t("header.headerMenu.faqs")} itemLink="faqs" />
+        <NavMenuItem itemTitle={t("header.headerMenu.ourTeam")} itemLink="our-team" />
+        <NavMenuItem itemTitle={t("header.headerMenu.ourStory")} itemLink="our-story" />
       </ul>
     </div>
   );

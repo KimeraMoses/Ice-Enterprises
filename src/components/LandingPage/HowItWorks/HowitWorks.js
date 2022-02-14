@@ -3,24 +3,25 @@ import { Container, Row } from "react-bootstrap";
 import HowitWorksCard from "./HowitWorksCard";
 import classes from "./HowitWorks.module.css";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import data from "../../../locales/en.json";
 import ScrollToSection from "../SectionHeading/ScrollToSection";
+import { useTranslation } from "react-i18next";
 
 const HowitWorks = () => {
-  const howitWorksData = data.pages.landing.howitWorks;
+  const { t } = useTranslation();
   return (
     <>
-      <ScrollToSection id="howItWorks" />
+      {/* <ScrollToSection id="howItWorks" /> */}
       <section className={classes.howitworks_section_wrapper}>
         <Container className={classes.howitworks_container} fluid>
-          <SectionHeading title={howitWorksData.heading} />
+          <SectionHeading title={t("pages.landing.howitWorks.heading")} />
           <Row className={classes.howitworks_row_wrapper}>
-            {howitWorksData.cards.map((card, index) => {
+            {t("pages.landing.howitWorks.cards", { returnObjects: true }).map((card, index) => {
               return <HowitWorksCard cardData={card} num={index} />;
             })}
           </Row>
         </Container>
       </section>
+      <ScrollToSection id="benefits" />
     </>
   );
 };

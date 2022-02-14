@@ -1,22 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SocialIcons from "../SocialIcons/SocialIcons";
-import data from "../../locales/en.json";
 import classes from "./Footer.module.css";
 import SocialIcon, {
   SocialMedia,
 } from "../../containers/SocialIcon/SocialIcon";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   let getCurrentYear = new Date().getFullYear();
-  const footerData = data.footer;
-  console.log(data);
+  const { t } = useTranslation();
 
   return (
     <div className={classes.footer_wrapper}>
       <div className={classes.copyright_wrapper}>
         <p>
-          © {getCurrentYear} {footerData.copyright}
+          © {getCurrentYear} {t("footer.copyright")}
         </p>
       </div>
       <div className={classes.powered_by_content}>
@@ -24,8 +23,8 @@ const Footer = () => {
           <SocialIcon type={SocialMedia.DIAMOND} />
         </div>
         <p>
-          {footerData.poweredBy.text}{" "}
-          <a href="/">{footerData.poweredBy.linkText}</a>
+          {t("footer.poweredBy.text")}{" "}
+          <a href="/">{t("footer.poweredBy.linkText")}</a>
         </p>
       </div>
       <div className={classes.ice__terms_social_wrapper}>
@@ -33,12 +32,12 @@ const Footer = () => {
           <ul>
             <li>
               <Link to="/privacy-policy">
-                {footerData.footerMenu.privacyPolicy}
+                {t("footer.footerMenu.privacyPolicy")}
               </Link>
             </li>
             <li>
               <Link to="/terms-of-services">
-                {footerData.footerMenu.termsOfService}
+                {t("footer.footerMenu.termsOfService")}
               </Link>
             </li>
           </ul>

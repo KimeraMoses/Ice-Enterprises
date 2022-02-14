@@ -10,7 +10,6 @@ const HowitWorks = () => {
   const { t } = useTranslation();
   return (
     <>
-      {/* <ScrollToSection id="howItWorks" /> */}
       <section className={classes.howitworks_section_wrapper}>
         <Container className={classes.howitworks_container} fluid>
           <SectionHeading title={t("pages.landing.howitWorks.heading")} />

@@ -1,5 +1,5 @@
 .faqs_section_wrapper {
-  padding: 60px 80px 40px;
+  padding: 60px 80px 20px;
 }
 .faqs_row_wrapper {
   display: flex;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 750px) {
   .faqs_section_wrapper {
-    padding: 40px 30px;
+    padding: 80px 30px;
   }
   .faqs_row_wrapper {
     flex-direction: column;

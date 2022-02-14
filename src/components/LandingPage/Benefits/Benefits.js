@@ -10,7 +10,6 @@ const Benefits = () => {
   const { t } = useTranslation();
   return (
     <>
-      <ScrollToSection id="benefits" />
       <section className={classes.benefits_section_wrapper}>
         <Container className={classes.benefits_container} fluid>
           <SectionHeading title={t("pages.landing.benefits.heading")} />

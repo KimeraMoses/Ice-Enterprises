@@ -13,6 +13,7 @@ import { Paper } from "@material-ui/core";
 //===COMPONENT IMPORTS===
 import Footer from "./Footer/Footer";
 import "./App.css";
+import "./UI/Theme/ThemeColors.css";
 import AppBar from "./AppBar/AppBar";
 import Home from "./LandingPage/Home/Home";
 

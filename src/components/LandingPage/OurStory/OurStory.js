@@ -8,7 +8,6 @@ const OurStory = () => {
   const { t } = useTranslation();
   return (
     <>
-    {/* <ScrollToSection id="our-story"/> */}
     <section className={classes.our_story_section_wrapper} >
       <div className={classes.our_story_header}>
         <h3>{t("pages.landing.ourStory.heading")}</h3>

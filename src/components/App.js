@@ -23,7 +23,7 @@ import AvailableRentals from "./Dashboard/MenuPanel/AvailableRentals/AvailableRe
 import Transactions from "./Dashboard/MenuPanel/Transactions/Transactions";
 import Users from "./Dashboard/MenuPanel/Users/Users";
 import Settings from "./Dashboard/MenuPanel/Settings/Settings";
-import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy";
+import PrivacyPolicy from "./PrivacyTerms/PrivacyPolicy/PrivacyPolicy";
 
 const App = () => {
   return (

@@ -17,7 +17,7 @@ const HeroSlider = () => {
             <img src={heroImage} alt="" />
           </div>
           <div className={classes.description_wrapper}>
-            <p>{t("pages.landing.heroSlider.description")}}</p>
+            <p>{t("pages.landing.heroSlider.description")}</p>
           </div>
           <div className={classes.hero_cards_wrapper}>
             {t("pages.landing.benefits.cards", { returnObjects: true }).map(

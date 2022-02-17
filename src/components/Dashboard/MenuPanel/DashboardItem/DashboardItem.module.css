@@ -5,16 +5,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  /* overflow-x: auto; */
 }
 .rental_chart {
   width: 100%;
   margin-top: -280px;
   overflow: hidden;
   border-radius: 20px;
-  /* background-color: red; */
 }
 
 .chart_popular_data_wrapper {
@@ -27,8 +23,10 @@
 .rental_chart_wrapper {
   width: 50%;
   background-color: var(--background_color);
-  margin: 10px;
   border-radius: 20px;
+}
+.rental_chart_wrapper{
+  margin-right: 10px;
 }
 .popular_rentals_wrapper {
   padding-bottom: 32px;
@@ -57,4 +55,5 @@
   .rental_chart_wrapper{
     margin-bottom: 20px;
   }
+
 }

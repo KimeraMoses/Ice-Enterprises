@@ -32,7 +32,7 @@ const Dashboard = () => {
   return (
     <Container className={classes.dashboard_page_wrapper} fluid>
       <MobileSideDrawer />
-      <Row className={classes.grandpa__dashboard_wrapper}>
+      <Row className={classes.ice__dashboard_wrapper}>
         <Col className={classes.menu__wrapper}  md={2}>
           <DashBoardMenu DashMenuTitle={DashMenuTitle} />
         </Col>

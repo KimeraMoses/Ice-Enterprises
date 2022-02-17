@@ -1,0 +1,5 @@
+.side_menu_wrapper{
+    background-color: var(--background_color);
+    padding: 20px;
+    height: 100vh;
+}

@@ -1,0 +1,48 @@
+.dashboard_menu_logo_wrapper {
+  padding: 15px;
+}
+.dashboard_menu_logo_wrapper,
+.dashboard_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard_logo {
+  background-color: rgba(66, 170, 255, 0.32);
+  border: 3px solid var(--primary_color);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.dashboard_menu_wrapper a {
+  text-decoration: none;
+  color: var(--text_color);
+}
+.dashboard_menu_item_wrapper {
+  position: relative;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 0;
+  white-space: nowrap;
+}
+.dashboard_menu_item_wrapper:hover,
+.dashboard_menu_item_wrapper.selected_menu_item {
+  color: #ffffff;
+  background-color: var(--primary_color);
+  border-radius: 12px;
+}
+
+.dashboard_menu_item_icon_wrapper {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.dashboard_menu_item_title_wrapper {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}

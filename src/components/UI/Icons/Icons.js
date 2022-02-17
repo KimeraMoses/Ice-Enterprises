@@ -153,3 +153,620 @@ export const NotificationDelegationIcon = () => {
     </svg>
   );
 };
+
+export const DashBoardIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g id="element-4" transform="translate(-684 -252)">
+        <path
+          id="Vector"
+          d="M8.5,8.9V2.1C8.5.6,7.86,0,6.27,0H2.23C.64,0,0,.6,0,2.1V8.9C0,10.4.64,11,2.23,11H6.27C7.86,11,8.5,10.4,8.5,8.9Z"
+          transform="translate(697.5 254)"
+          fill="none"
+          stroke="#fff"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+        <path
+          id="Vector-2"
+          data-name="Vector"
+          d="M8.5,3.9V2.1C8.5.6,7.86,0,6.27,0H2.23C.64,0,0,.6,0,2.1V3.9C0,5.4.64,6,2.23,6H6.27C7.86,6,8.5,5.4,8.5,3.9Z"
+          transform="translate(697.5 268)"
+          fill="none"
+          stroke="#fff"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+        <path
+          id="Vector-3"
+          data-name="Vector"
+          d="M8.5,2.1V8.9c0,1.5-.64,2.1-2.23,2.1H2.23C.64,11,0,10.4,0,8.9V2.1C0,.6.64,0,2.23,0H6.27C7.86,0,8.5.6,8.5,2.1Z"
+          transform="translate(686 263)"
+          fill="none"
+          stroke="#fff"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+        <path
+          id="Vector-4"
+          data-name="Vector"
+          d="M8.5,2.1V3.9C8.5,5.4,7.86,6,6.27,6H2.23C.64,6,0,5.4,0,3.9V2.1C0,.6.64,0,2.23,0H6.27C7.86,0,8.5.6,8.5,2.1Z"
+          transform="translate(686 254)"
+          fill="none"
+          stroke="#fff"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+        <path
+          id="Vector-5"
+          data-name="Vector"
+          d="M0,0H24V24H0Z"
+          transform="translate(684 252)"
+          fill="none"
+          opacity="0"
+        />
+      </g>
+    </svg>
+  );
+};
+
+export const AvailableRentalIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="vuesax_linear_box"
+        data-name="vuesax/linear/box"
+        transform="translate(-108 -188)"
+      >
+        <g id="box">
+          <path
+            id="Vector"
+            d="M0,0,8.83,5.11,17.6.03"
+            transform="translate(111.17 195.44)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M0,9.07V0"
+            transform="translate(120 200.54)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-3"
+            data-name="Vector"
+            d="M7.54.481,2.2,3.441A4.719,4.719,0,0,0,0,7.171v5.65a4.719,4.719,0,0,0,2.2,3.73l5.34,2.97a4.792,4.792,0,0,0,4.15,0l5.34-2.97a4.719,4.719,0,0,0,2.2-3.73V7.171a4.719,4.719,0,0,0-2.2-3.73L11.69.471A4.758,4.758,0,0,0,7.54.481Z"
+            transform="translate(110.39 189.999)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-4"
+            data-name="Vector"
+            d="M0,0H24V24H0Z"
+            transform="translate(132 212) rotate(180)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export const ActiveRentalIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="vuesax_linear_glass"
+        data-name="vuesax/linear/glass"
+        transform="translate(-364 -508)"
+      >
+        <g id="glass">
+          <path
+            id="Vector"
+            d="M0,0H4"
+            transform="translate(374 525.5)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M0,15V5C0,1,1,0,5,0"
+            transform="translate(366 510.5)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-3"
+            data-name="Vector"
+            d="M5,15V5C5,1,4,0,0,0"
+            transform="translate(381 510.5)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-4"
+            data-name="Vector"
+            d="M8,2.8V6.09c0,2-.8,2.8-2.8,2.8H2.8c-2,0-2.8-.8-2.8-2.8V2.8C0,.8.8,0,2.8,0H5.2C7.2,0,8,.8,8,2.8Z"
+            transform="translate(366 521.11)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-5"
+            data-name="Vector"
+            d="M8,2.8V6.09c0,2-.8,2.8-2.8,2.8H2.8c-2,0-2.8-.8-2.8-2.8V2.8C0,.8.8,0,2.8,0H5.2C7.2,0,8,.8,8,2.8Z"
+            transform="translate(378 521.11)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-6"
+            data-name="Vector"
+            d="M0,0H24V24H0Z"
+            transform="translate(364 508)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export const TransactionsIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="vuesax_linear_card"
+        data-name="vuesax/linear/card"
+        transform="translate(-492 -508)"
+      >
+        <g id="card">
+          <path
+            id="Vector"
+            d="M0,0H20"
+            transform="translate(494 516.505)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M0,0H2"
+            transform="translate(498 524.505)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-3"
+            data-name="Vector"
+            d="M0,0H4"
+            transform="translate(502.5 524.505)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-4"
+            data-name="Vector"
+            d="M4.44,0H15.55C19.11,0,20,.88,20,4.39V12.6c0,3.51-.89,4.39-4.44,4.39H4.44C.89,17,0,16.12,0,12.61V4.39C0,.88.89,0,4.44,0Z"
+            transform="translate(494 511.505)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-5"
+            data-name="Vector"
+            d="M0,0H24V24H0Z"
+            transform="translate(492 508)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export const UsersIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="vuesax_linear_user-octagon"
+        data-name="vuesax/linear/user-octagon"
+        transform="translate(-620 -188)"
+      >
+        <g id="user-octagon">
+          <path
+            id="Vector"
+            d="M18.17,6.58v6.84a3.174,3.174,0,0,1-1.57,2.73l-5.94,3.43a3.163,3.163,0,0,1-3.15,0L1.57,16.15A3.15,3.15,0,0,1,0,13.42V6.58A3.174,3.174,0,0,1,1.57,3.85L7.51.42a3.163,3.163,0,0,1,3.15,0L16.6,3.85A3.162,3.162,0,0,1,18.17,6.58Z"
+            transform="translate(622.91 190)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <g id="Group">
+            <path
+              id="Vector-2"
+              data-name="Vector"
+              d="M4.66,2.33A2.33,2.33,0,1,1,2.33,0,2.33,2.33,0,0,1,4.66,2.33Z"
+              transform="translate(629.67 194.34)"
+              fill="none"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              id="Vector-3"
+              data-name="Vector"
+              d="M8,3.26C8,1.46,6.21,0,4,0S0,1.46,0,3.26"
+              transform="translate(628 201.4)"
+              fill="none"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </g>
+          <path
+            id="Vector-4"
+            data-name="Vector"
+            d="M0,0H24V24H0Z"
+            transform="translate(620 188)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export const SettingsIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="vuesax_linear_setting"
+        data-name="vuesax/linear/setting"
+        transform="translate(-236 -188)"
+      >
+        <g id="setting">
+          <path
+            id="Vector"
+            d="M0,7v5.77c0,2.12,0,2.12,2,3.47l5.5,3.18a3.3,3.3,0,0,0,3,0L16,16.24c2-1.35,2-1.35,2-3.46V7c0-2.11,0-2.11-2-3.46L10.5.36a3.3,3.3,0,0,0-3,0L2,3.54C0,4.89,0,4.89,0,7Z"
+            transform="translate(239 190.11)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M6,3A3,3,0,1,1,3,0,3,3,0,0,1,6,3Z"
+            transform="translate(245 197)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-3"
+            data-name="Vector"
+            d="M0,0H24V24H0Z"
+            transform="translate(236 188)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export const LogoutIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="vuesax_linear_logout"
+        data-name="vuesax/linear/logout"
+        transform="translate(-364 -444)"
+      >
+        <g id="logout">
+          <path
+            id="Vector"
+            d="M0,5.12,2.56,2.56,0,0"
+            transform="translate(381.44 453.5)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M0,0H10.17"
+            transform="translate(373.76 456.06)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-3"
+            data-name="Vector"
+            d="M8,16A7.651,7.651,0,0,1,0,8,7.651,7.651,0,0,1,8,0"
+            transform="translate(367.76 448)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-4"
+            data-name="Vector"
+            d="M0,0H24V24H0Z"
+            transform="translate(388 468) rotate(180)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export const IceLogo = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="36"
+      height="40"
+      viewBox="0 0 36 40"
+    >
+      <g id="Logo" transform="translate(-507.951 -774.949)">
+        <path
+          id="Path_3"
+          data-name="Path 3"
+          d="M543.949,796.225a9.647,9.647,0,0,1-.107,1.62c-.024.162-.054.325-.086.484-.017.082-.034.163-.052.242q-.056.24-.123.478h0c-.034.119-.07.237-.108.357s-.079.234-.122.352q-.172.469-.392.923c-.061.125-.125.25-.193.373-.093.174-.193.348-.3.516-.09.146-.184.289-.282.431s-.2.282-.306.419-.216.274-.33.408a10.681,10.681,0,0,1-.735.777,10.872,10.872,0,0,1-6.6,2.95q-.483.043-.969.043l-.22,0-.085,0c-.067,0-.135,0-.2-.007h-.012c-.066,0-.132-.006-.2-.011l-.087-.006c-.039,0-.077-.005-.115-.009l-.118-.01-.04,0-.2-.021c-.085-.01-.169-.02-.255-.033s-.144-.02-.216-.032l-.061-.009c-.073-.012-.145-.024-.218-.038l-.036-.006-.228-.045-.245-.053-.019,0c-.118-.028-.236-.059-.354-.09-.075-.02-.149-.041-.223-.062-.036-.011-.072-.022-.109-.032l-.085-.028c-.048-.014-.1-.029-.143-.046a.083.083,0,0,1-.02-.006c-.057-.018-.114-.037-.17-.057q-.232-.08-.46-.171a10.671,10.671,0,0,1-2.181-1.172A10.539,10.539,0,0,1,526,803.9l8.513-8.133.437-.417L538,792.432l-3.091-2.953H516.989l-3.091,2.953,12,11.466a10.7,10.7,0,0,1-3.226,1.956c-.08.031-.161.06-.242.091s-.141.05-.21.073c-.032.011-.063.021-.095.031-.048.017-.1.033-.148.047-.027.009-.053.018-.08.025-.053.017-.105.032-.158.047l-.095.027c-.051.015-.1.028-.152.041l-.093.024-.128.032-.134.031c-.052.013-.1.024-.155.035a.483.483,0,0,1-.051.011c-.067.013-.133.027-.2.039-.021,0-.044.01-.066.013l-.207.036-.023,0c-.083.013-.167.026-.249.036s-.14.02-.211.028l-.063.007c-.054.006-.106.012-.159.016-.032,0-.064.008-.1.01-.06.005-.119.011-.179.014l-.066.005-.248.014c-.062,0-.125.005-.188.006l-.077,0c-.082,0-.165,0-.247,0a10.932,10.932,0,0,1-7.567-2.993,10.628,10.628,0,0,1-.735-.777c-.114-.134-.225-.269-.33-.408s-.208-.278-.306-.419-.192-.286-.282-.431-.176-.292-.258-.441-.159-.3-.232-.449a9.955,9.955,0,0,1-.413-.983c-.053-.148-.1-.3-.149-.447-.015-.05-.03-.1-.044-.15s-.022-.076-.032-.114q-.059-.208-.106-.418c-.019-.081-.036-.162-.052-.242q-.049-.241-.086-.484a9.748,9.748,0,0,1-.108-1.622,9.93,9.93,0,0,1,2.869-6.813l0,0,.172-.164c.03-.033.063-.063.1-.094l14.865-14.2h0l14.865,14.2c.033.031.065.061.1.094l.172.164,0,0a9.933,9.933,0,0,1,2.868,6.815"
+          transform="translate(0 0)"
+          fill="#fff"
+        />
+        <path
+          id="Path_4"
+          data-name="Path 4"
+          d="M700.948,1100.2l.05.043-.051.048-.05-.048.05-.043"
+          transform="translate(-174.997 -296.348)"
+          fill="#fff"
+        />
+        <path
+          id="Path_5"
+          data-name="Path 5"
+          d="M660.044,1128.626h-9.461s4.731-4.7,4.731-9.405c0,4.7,4.73,9.405,4.73,9.405"
+          transform="translate(-129.363 -313.677)"
+          fill="#fff"
+        />
+        <path
+          id="Path_6"
+          data-name="Path 6"
+          d="M605.107,938.439c.792.362,1.566.753,2.341,1.143s1.538.8,2.3,1.205,1.52.826,2.274,1.248l1.128.637,1.123.646h-.409l1.122-.646,1.128-.637q1.131-.632,2.274-1.248t2.3-1.205c.775-.389,1.549-.78,2.341-1.142-.7.5-1.421.98-2.14,1.458s-1.449.937-2.18,1.4-1.468.907-2.207,1.352l-1.112.663-1.118.654-.205.12-.2-.12-1.117-.654-1.112-.663q-1.109-.667-2.207-1.353t-2.18-1.4c-.719-.477-1.439-.953-2.14-1.457"
+          transform="translate(-88.118 -148.961)"
+          fill="#fff"
+        />
+        <path
+          id="Path_7"
+          data-name="Path 7"
+          d="M713.978,971.669,705.1,985.053a10.667,10.667,0,0,1-2.181-1.172,10.53,10.53,0,0,1-.948-.746L710.49,975l.437-.417Z"
+          transform="translate(-175.975 -179.238)"
+          fill="#fff"
+        />
+        <path
+          id="Path_8"
+          data-name="Path 8"
+          d="M571.888,971.669l8.873,13.384a10.663,10.663,0,0,0,2.181-1.172,10.533,10.533,0,0,0,.948-.746L575.377,975l-.437-.417Z"
+          transform="translate(-57.989 -179.238)"
+          fill="#fff"
+        />
+      </g>
+    </svg>
+  );
+};
+
+export const NewRentalsIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="vuesax_bold_glass"
+        data-name="vuesax/bold/glass"
+        transform="translate(-364 -508)"
+      >
+        <g id="glass">
+          <path
+            id="Vector"
+            d="M15.95,0H15a.715.715,0,0,0,0,1.43h.95a3.1,3.1,0,0,1,3.1,3.09V10.4a2.523,2.523,0,0,0-1.19-.29H14.05a2.623,2.623,0,0,0-2.62,2.62v1.56H9.05V12.73a2.623,2.623,0,0,0-2.62-2.62H2.62a2.523,2.523,0,0,0-1.19.29V4.52a3.1,3.1,0,0,1,3.1-3.09h.95A.715.715,0,0,0,5.48,0H4.53A4.53,4.53,0,0,0,0,4.52V17.38A2.623,2.623,0,0,0,2.62,20H6.43a2.623,2.623,0,0,0,2.62-2.62V15.71h2.38v1.67A2.623,2.623,0,0,0,14.05,20h3.81a2.623,2.623,0,0,0,2.62-2.62V4.52A4.53,4.53,0,0,0,15.95,0Z"
+            transform="translate(365.76 510)"
+            fill="#fff"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M0,0H24V24H0Z"
+            transform="translate(388 532) rotate(180)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+
+
+export const ArrowLeft = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+    >
+      <g
+        id="vuesax_linear_arrow-left"
+        data-name="vuesax/linear/arrow-left"
+        transform="translate(-364 -252)"
+      >
+        <g id="arrow-left" transform="translate(364 252)">
+          <path
+            id="Vector"
+            d="M4.732,10.56.385,6.213a1.324,1.324,0,0,1,0-1.867L4.732,0"
+            transform="translate(5.268 2.72)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M0,0H16V16H0Z"
+            transform="translate(16 16) rotate(180)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export const ArrowRight = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+    >
+      <g
+        id="vuesax_linear_arrow-right"
+        data-name="vuesax/linear/arrow-right"
+        transform="translate(-300 -252)"
+      >
+        <g id="arrow-right" transform="translate(300 252)">
+          <path
+            id="Vector"
+            d="M0,10.56,4.347,6.213a1.324,1.324,0,0,0,0-1.867L0,0"
+            transform="translate(5.94 2.72)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            id="Vector-2"
+            data-name="Vector"
+            d="M0,0H16V16H0Z"
+            transform="translate(16 16) rotate(180)"
+            fill="none"
+            opacity="0"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};

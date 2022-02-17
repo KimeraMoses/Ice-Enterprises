@@ -188,6 +188,242 @@
       }
     }
   },
+  "dashboard": {
+    "dashboard": {
+      "heading": "Dashboard",
+      "summaryCards": [
+        {
+          "title": "New Rentals",
+          "amount": 240
+        },
+        {
+          "title": "Rentals About To End",
+          "amount": 360
+        },
+        {
+          "title": "Total Funds In Escrow",
+          "amount": 22450.0,
+          "currency": "USD"
+        },
+        {
+          "title": "Total Earned",
+          "amount": 44850.0,
+          "currency": "USD"
+        }
+      ],
+      "toMonthlyRental": {
+        "heading": "Total Rentals This Month"
+      },
+      "mostPopularRentals": {
+        "heading": "Most Popular Rental Items",
+        "popularRentalCards": [
+          {
+            "name": "Bomber Pants",
+            "linkText": "View In Dashboard",
+            "levels": {
+              "label": "Levels",
+              "value": 2
+            },
+            "percentage": {
+              "label": "Multiplier",
+              "value": 25
+            },
+            "rented": {
+              "labelL": "Rented",
+              "labelR": "Times"
+            },
+            "generated": {
+              "labelL": "Generated",
+              "labelR": "ICE"
+            }
+          }
+        ]
+      }
+    },
+    "activeRentals": {
+      "heading": "Active Rentals"
+    },
+    "availableRentals": {
+      "heading": "Available Rentals"
+    },
+    "rentalsTableHeadings": {
+      "renterAddress": "Renter Address",
+      "wearableForRent": "Wearable For Rent",
+      "level": "Level Or Rank",
+      "multiplier": "Multiplier",
+      "rentalPrice": "Rental Price",
+      "rentalTeam": "Rental Term",
+      "checkIns": "Check Ins"
+    },
+    "sortBy": {
+      "text": "Sort By"
+    },
+    "actionBtnText": {
+      "btnL": "Export To Excel",
+      "btnR": "Export To Pdf"
+    },
+    "tableFooter": {
+      "textL": "Displaying",
+      "textM": "of",
+      "textR": "Items"
+    },
+    "transactions": {
+      "heading": "Transactions",
+      "transactionsTable": {
+        "date": "Date",
+        "from": "Transferred From",
+        "to": "Transferred To",
+        "amount": "Amount"
+      },
+      "totalFunds": {
+        "heading": "Total Funds In Escrow",
+        "currency": "USD"
+      }
+    },
+    "users": {
+      "heading": "Users",
+      "filterBy": "Filter by",
+      "usersTable": {
+        "userAddress": "User Address",
+        "emailAddress": "Email Address",
+        "items": "Items",
+        "rentals": "Rentals",
+        "totalSpent": "Total Spent",
+        "totalEarned": "Total Earned",
+        "userType": "User Type",
+        "status": "Status"
+      }
+    },
+    "settings": {
+      "heading": "Settings",
+      "formInputsTitles": {
+        "siteName": "Site Name",
+        "maxItems": "Max Items",
+        "minRentalAmount": "Min Rental Amount",
+        "maxRentalAmount": "Max Rental Amount",
+        "adminEmail": "Admin Email Address",
+        "maintenance": "Maintenance",
+        "walletAddress": "Wallet Address",
+        "privateKey": "Private Key",
+        "providerUrl": "Provider URL",
+        "PecentagePerOwner": "Escrow Fee Percentage Per Owner",
+        "PecentagePerPlayer": "Escrow Fee Percentage Per Player"
+      },
+      "btnText": "Save Changes"
+    },
+    "logout": "Logout"
+  },
+  
+  "privacyPolicy": {
+    "heading": "Privacy Policy",
+    "description": "This is the Privacy & Cookies Policy (the ‘Policy’) of Ice Enterprises, LLC (hereafter “Ice Enterprises”’, “we” or “us”). Your privacy is important to us, and this Policy describes the ways in which we collect and use information about you when you use our website. This policy is effective as of February 1, 2022 and was last updated on February 1, 2022.",
+    "infoWeCollect": {
+      "heading": "Information We Collect",
+      "paragraphs": [
+        "We do NOT require registration to use this site or our Service",
+        "We do NOT collect information about Players/Renters in the course of accessing our Service. We request email addresses from Owners/Delegators solely for the purpose of sending notifications regarding the use of the service (e.g., reminders to delegate; notice of rental term expiration, etc.), and we may obtain email addresses in the course of responding to inquiries. We do not sell or share such information with any third parties.",
+        "We do NOT utilize cookies or any other tracking mechanisms on this site."
+      ],
+      "linkToWebsites": {
+        "heading": "Links To Other Websites",
+        "paragraphs": [
+          "Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit.",
+          "We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+        ]
+      },
+      "changesToPrivacyPolicy": {
+        "heading": "Changes To This Privacy Policy",
+        "paragraph": "We may update Our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
+      },
+      "contactUs": {
+        "heading": "Contact Us",
+        "paragraph": "If you have any questions about this Privacy Policy, You can contact us",
+        "contactDetails": {
+          "email": {
+            "name": "E-mail",
+            "value": "help@iceenterprises.io"
+          },
+          "discord": {
+            "name": "Discord",
+            "value": "https://discord.com/invite/ttH8B3py"
+          },
+          "twitter": {
+            "name": "Twitter",
+            "value": "@iceenterprises"
+          }
+        }
+      }
+    }
+  },
+  "termsOfService": {
+    "heading": "Terms Of Service",
+    "welcomeText": "Thank you for joining us!",
+    "iceDescription": "The Ice Enterprises Subscription Platform is designed to offer a safe, secure, and frictionless platform allowing OWNERS of ICE Poker Wearables to rent their NFTs to PLAYERS at rates they set on a short, medium or long term basis. It was created by Ice Poker wearable owners who want to see this community thrive. We are P2E enthusiasts just like you. Hop on the Discord, contact one of our team members, and we will work to address any questions or concerns you might have.",
+    "whatWeOwn": {
+      "heading": "What We Own",
+      "description": "This platform is owned and operated by Ice Enterprises, LLC (“the Company”). All rights that are not specifically granted to the users are reserved by the Company. This includes but is not limited to the intellectual property rights surrounding the Platform and “Ice Enterprises” name, logos, trademarks, the website, the look and feel of the user interface, and the smart contract code."
+    },
+    "limitationOfLiability": {
+      "heading": "Limitations Of Liability for Gas, Failed Transactions, Smart Contract Bugs",
+      "description": "We have worked very hard to make sure that there are no bugs in our smart contract and that our initial launch is smooth. As we have seen in many previous projects, however, sometimes things break. You agree to hold the Company harmless for any losses you may incur as a consequence of an OWNER not renting a wearable or wearables, or a PLAYER not being able to rent a wearable."
+    },
+    "noGaurantees": {
+      "heading": "No Guarantees Or Future Promises",
+      "description": "The Company hopes to continue to develop this platform by providing additional utility and ease of use in response to community feedback on an ongoing basis. While we intend to work towards those goals, we cannot guarantee future developments. You agree that signing up for a specific rental period, and the benefits and obligations associated thereto, is all you are guaranteed. You agree that you are not relying on any future commitments in using this platform and your participation resets at the conclusion of each individual rental period."
+    },
+    "taxes": {
+      "heading": "Taxes",
+      "description": "OWNERS are entirely responsible for any tax liability which may arise from renting wearables, and OWNERS and PLAYERS are entirely responsible for any tax liability which may arise from earning ICE in daily competitions or related ICE Poker events when renting wearables through this platform."
+    },
+    "classAction": {
+      "heading": "Class Action Waiver",
+      "description": "You agree to waive any class action status, and any legal dispute around the Service which you may choose to bring can only be done on an individual basis."
+    },
+    "children": {
+      "heading": "Children",
+      "description": "Our Service is not targeted towards children. You agree that you are over the age of 18, or above the legal age of your jurisdiction, whichever is greater."
+    },
+    "arbitration": {
+      "heading": "Arbitration",
+      "description": "Any controversy or claim arising out of or relating to using the ICE Enterprises platform shall be settled by arbitration administered by the American Arbitration Association in accordance with its Commercial Arbitration Rules, and judgment on the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof."
+    },
+    "jurisdiction": {
+      "heading": "Jurisdiction & Choice Of Law",
+      "description": "You agree that for purposes of any legal dispute, you will be subject to the jurisdiction of Deleward and that any legal proceeding will be brought in Delaware."
+    },
+    "privacyPolicy": {
+      "heading": "Privacy Policy",
+      "description": "You understand that the Ethereum and Polygon blockchain networks are public blockchains, and all of your transaction history initiated through this website will be made public. Please refer to our full privacy policy on our website."
+    },
+    "howToUtilize": {
+      "heading": "How To Utilize Our Service",
+      "description": {
+        "playerRenter": {
+          "description": "In order to participate as a Player/Renter on the Ice Enterprises Subscription Platform, an individual must follow these steps",
+          "procedures": [
+            "Select a Wearable you would like to rent.",
+            "Connect your Metamask Wallet.",
+            "Deposit the full rental amount amount (in ICE) plus service fee into the Ice Enterprises Subscription Platform Escrow Account."
+          ]
+        },
+        "ownerDelegator": {
+          "description": "In order to participate as an Owner/Delegator on the Ice Enterprises Subscription Platform, an individual must follow these steps",
+          "procedures": [
+            "Own one or more ICE Poker Wearable NFT.",
+            "Connect your Metamask Wallet.",
+            "List the Ice Poker Wearable(s) you are making available to rent.",
+            "Select rental rate and term for each wearable.",
+            "Respond to any rental requests within 3-hours of being notified by Ice Enterprises of a rental request.",
+            "Delegate the rented wearable(s) on or before 12:00 UTC for the term of the rental."
+          ]
+        }
+      }
+    },
+    "fees": {
+      "heading": "Fees For Using The Platform",
+      "description": "A 4% service fee is assessed and deducted automatically from the rental due the Owner; a 2% service fee is added to the PLAYER’s total rental cost."
+    }
+  },
   "footer": {
     "poweredBy": {
       "text": "Powered by",

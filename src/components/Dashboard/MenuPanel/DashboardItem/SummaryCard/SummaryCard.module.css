@@ -1,0 +1,33 @@
+.summary_card_wrapper{
+    /* min-width: 380px; */
+    background-color: var(--background_color);
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px 0 0;
+    font-family: "Poppins", sans-serif;
+}
+.card_content_wrapper{
+    padding-right: 10px;
+}
+.card_content_wrapper .card__title h4{
+    color: var(--tartiary_color);
+    font-size: 16px;
+    font-weight: 400;
+}
+.card_content_wrapper .card__amount h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.card_icon_wrapper{
+    background-color: var(--secondary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}

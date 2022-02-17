@@ -19,6 +19,10 @@ body {
 a {
   text-decoration: none !important;
 }
+
+.MuiDrawer-paper {
+  background-color: transparent!important;
+}
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
@@ -39,3 +43,16 @@ a {
     border-radius: 100px;
   }
  
+  .pagination-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  @media screen and (max-width: 798px) {
+    .pagination-bar{
+      justify-content: flex-start;
+    }
+  
+  }

@@ -1,0 +1,58 @@
+.pupular_rental_wrapper {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.rental_info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image_wrapper {
+  border: 2px dashed #595959;
+  border-spacing: 4px;
+  width: 68px;
+  height: 68px;
+  border-radius: 8px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+.image_wrapper img {
+  width: 64px;
+  height: 64px;
+}
+.rental_name h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.rental_statistics h5,
+.rental_meta h5 {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--tartiary_color);
+  margin: 0;
+}
+
+.rental_statistics_wrapper {
+  text-align: right;
+}
+.rental_link a {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--primary_color);
+}
+.rental_meta,
+.rental_statistics {
+  margin-top: 2px;
+}
+.pupular_rental_wrapper:hover {
+  background-color: var(--secondary_color);
+}
+
+@media screen and (max-width: 680px) {
+  .rental_name h3 {
+    white-space: nowrap;
+  }
+}

@@ -24,7 +24,7 @@ const SortingDropdown = (props) => {
     >
       <div className={classes.gpa__dropdown_button}>
         <div className={classes.gpa__dropdown_button_text}>
-          {!isSelect && <div>Sort by:</div>} {selected}
+         {"Sort by : "}{selected}
         </div>
         <div>{isActive ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}</div>
       </div>

@@ -1,0 +1,8 @@
+.header_wrapper{
+    padding: 40px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #E8E8E8;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}

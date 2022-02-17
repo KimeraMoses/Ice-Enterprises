@@ -24,6 +24,7 @@ import Transactions from "./Dashboard/MenuPanel/Transactions/Transactions";
 import Users from "./Dashboard/MenuPanel/Users/Users";
 import Settings from "./Dashboard/MenuPanel/Settings/Settings";
 import PrivacyPolicy from "./PrivacyTerms/PrivacyPolicy/PrivacyPolicy";
+import Terms from "./PrivacyTerms/Terms/Terms";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
+          <Route path="/terms-of-services" exact element={<Terms />} />
           <Route path="/dashboard/*" element={<Dashboard />}>
             <Route path="user" element={<DashboardItem />} />
             <Route path="active-rentals" element={<ActiveRentals />} />

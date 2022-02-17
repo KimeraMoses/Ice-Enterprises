@@ -44,8 +44,17 @@
   pointer-events: none;
   background-color: #595959;
 }
-
 .arrow:hover {
   background-color: transparent;
   cursor: default;
+}
+
+@media screen and (max-width: 680px) {
+  .pagination-container {
+    flex-wrap: wrap;
+    margin: 15px 0 10px -30px;
+  }
+  .pagination-item {
+    margin: 4px;
+  }
 }

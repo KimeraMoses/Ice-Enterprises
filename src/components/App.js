@@ -19,6 +19,9 @@ import Home from "./LandingPage/Home/Home";
 import Dashboard from "./Dashboard/Dashboard";
 import DashboardItem from "./Dashboard/MenuPanel/DashboardItem/DashboardItem";
 import ActiveRentals from "./Dashboard/MenuPanel/ActiveRentals/ActiveRentals";
+import AvailableRentals from "./Dashboard/MenuPanel/AvailableRentals/AvailableRentals";
+import Transactions from "./Dashboard/MenuPanel/Transactions/Transactions";
+import Users from "./Dashboard/MenuPanel/Users/Users";
 
 const App = () => {
   return (
@@ -30,8 +33,9 @@ const App = () => {
           <Route path="/dashboard/*" element={<Dashboard />}>
             <Route path="user" element={<DashboardItem />} />
             <Route path="active-rentals" element={<ActiveRentals />} />
-          {/* <Route path="blacklist" element={<BlackList />} /> */}
-          {/* <Route path="tokens" element={<Tokens />} /> */}
+            <Route path="available-rentals" element={<ActiveRentals />} />
+            <Route path="transactions" element={<Transactions />} />
+            <Route path="users" element={<Users />} />
           </Route>
         </Routes>
       </Paper>

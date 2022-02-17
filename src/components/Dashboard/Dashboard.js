@@ -33,11 +33,11 @@ const Dashboard = () => {
     <Container className={classes.dashboard_page_wrapper} fluid>
       <MobileSideDrawer />
       <Row className={classes.grandpa__dashboard_wrapper}>
-        <Col className={classes.menu__wrapper} lg={2}>
+        <Col className={classes.menu__wrapper}  md={2}>
           <DashBoardMenu DashMenuTitle={DashMenuTitle} />
         </Col>
 
-        <Col lg={10} className={classes.selected_menu_item_wrapper}>
+        <Col md={10} className={classes.selected_menu_item_wrapper}>
           <div className={classes.selected_menu_item_title}>
             <h3>{menuTitle}</h3>
           </div>

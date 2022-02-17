@@ -1,0 +1,80 @@
+.rental_table {
+  margin-top: 20px;
+}
+.active_rentals_table_wrapper {
+  display: flex;
+}
+.transaction_table_wrapper {
+  background-color: var(--background_color);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.total_funds_wrapper {
+  padding: 0px 20px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.total_funds_wrapper_inner {
+  background-color: var(--background_color);
+  border-radius: 20px;
+  padding: 20px 0 0;
+}
+.total_funds_img {
+  margin-top: -100px;
+}
+.total_funds_wrapper_inner img {
+  width: 100%;
+  height: auto;
+}
+.total_funds_wrapper_inner h3,
+.total_funds_wrapper_inner h4 {
+  padding-left: 32px;
+}
+.total_funds_wrapper_inner h4 {
+  font-size: 16px;
+  color: var(--tartiary_color);
+  font-weight: 400;
+}
+
+.tokens_actions_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: var(--tartiary_color);
+  font-family: "Poppins", sans-serif;
+  padding: 80px 0 0;
+  overflow-x: auto;
+}
+.displayed_transactions_count {
+  padding: 10px 0;
+}
+
+.displayed_transactions_count h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.transaction_pagination_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+  .active_rentals_table_wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  .transaction_table_wrapper {
+    width: 100%;
+  }
+  .total_funds_wrapper {
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+
+}
+
+@media screen and (max-width: 798px) {
+  .tokens_actions_wrapper {
+    flex-direction: column;
+  }
+}

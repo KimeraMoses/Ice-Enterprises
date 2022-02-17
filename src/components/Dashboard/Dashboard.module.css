@@ -14,7 +14,7 @@
 .menu__wrapper {
   min-height: 100vh;
   background-color: var(--background_color);
-  padding: 20px;
+  padding: 20px!important;
   /* min-width: 260px; */
   /* margin-right: 10px; */
 }

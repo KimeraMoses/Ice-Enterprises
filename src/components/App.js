@@ -22,12 +22,12 @@ import ActiveRentals from "./Dashboard/MenuPanel/ActiveRentals/ActiveRentals";
 import AvailableRentals from "./Dashboard/MenuPanel/AvailableRentals/AvailableRentals";
 import Transactions from "./Dashboard/MenuPanel/Transactions/Transactions";
 import Users from "./Dashboard/MenuPanel/Users/Users";
+import Settings from "./Dashboard/MenuPanel/Settings/Settings";
 
 const App = () => {
   return (
     <Router>
       <Paper elevation={0} square>
-        {/* <AppBar /> */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/dashboard/*" element={<Dashboard />}>
@@ -36,6 +36,7 @@ const App = () => {
             <Route path="available-rentals" element={<ActiveRentals />} />
             <Route path="transactions" element={<Transactions />} />
             <Route path="users" element={<Users />} />
+            <Route path="settings" element={<Settings />} />
           </Route>
         </Routes>
       </Paper>

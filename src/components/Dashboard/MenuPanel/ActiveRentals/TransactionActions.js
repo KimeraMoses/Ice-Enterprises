@@ -27,7 +27,7 @@ const TransactionActions = (props) => {
         </div>
         <div className={classes.add_new_btn_wrapper}>
           <Button variant="secondary" onClick={AddNewBlackListHandler}>
-            Export To Excel
+            Export To Pdf
           </Button>
         </div>
       </div>

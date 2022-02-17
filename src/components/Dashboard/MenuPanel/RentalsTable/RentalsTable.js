@@ -8,6 +8,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import classes from "./RentalsTable.module.css";
 import { useSelector } from "react-redux";
+import { useTranslation } from "react-i18next";
 const TableArray = [
   {
     addrss: "Mpzi....yMv",
@@ -56,21 +57,23 @@ const TableArray = [
   }
 ];
 const RentalsTable = (props) => {
+  const { t } = useTranslation();
   const isLoading = true;
   const { currentTableData } = props;
+  
 
   return (
     <TableContainer>
       <Table className={classes.table} aria-label="customized table">
         <TableHead classes={{ root: classes.table_head }}>
           <TableRow classes={{ root: classes.table__head_row }}>
-            <TableCell>Renter Address</TableCell>
-            <TableCell align="right">Wearable For Rent</TableCell>
-            <TableCell align="right">Level Or Rank</TableCell>
-            <TableCell align="right">% Multiplier</TableCell>
-            <TableCell align="right">Rental Price</TableCell>
-            <TableCell align="right">Rental Term</TableCell>
-            <TableCell align="right">CheckIns</TableCell>
+            <TableCell>{t("dashboard.rentalsTableHeadings.renterAddress")}</TableCell>
+            <TableCell align="right">{t("dashboard.rentalsTableHeadings.wearableForRent")}</TableCell>
+            <TableCell align="right">{t("dashboard.rentalsTableHeadings.level")}</TableCell>
+            <TableCell align="right">% {t("dashboard.rentalsTableHeadings.multiplier")}</TableCell>
+            <TableCell align="right">{t("dashboard.rentalsTableHeadings.rentalPrice")}</TableCell>
+            <TableCell align="right">{t("dashboard.rentalsTableHeadings.rentalTeam")}</TableCell>
+            <TableCell align="right">{t("dashboard.rentalsTableHeadings.checkIns")}</TableCell>
           </TableRow>
         </TableHead>
         <TableBody classes={{ root: classes.table__body }}>

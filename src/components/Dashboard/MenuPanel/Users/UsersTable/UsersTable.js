@@ -10,6 +10,7 @@ import classes from "./UsersTable.module.css";
 import { useSelector } from "react-redux";
 import { withStyles } from "@material-ui/styles";
 import { Switch } from "@material-ui/core";
+import { useTranslation } from "react-i18next";
 const TableArray = [
   {
     address: "Mpzi....yMv",
@@ -65,6 +66,7 @@ const TableArray = [
 const UsersTable = (props) => {
   const isLoading = true;
   const { currentTableData } = props;
+  const { t } = useTranslation();
 
   const CustomSwitch = withStyles((theme) => ({
     root: {
@@ -124,14 +126,14 @@ const UsersTable = (props) => {
       <Table className={classes.table} aria-label="customized table">
         <TableHead classes={{ root: classes.table_head }}>
           <TableRow classes={{ root: classes.table__head_row }}>
-            <TableCell>User Address</TableCell>
-            <TableCell align="right">Email Address</TableCell>
-            <TableCell align="right">Items</TableCell>
-            <TableCell align="right">Rentals</TableCell>
-            <TableCell align="right">Total Spent</TableCell>
-            <TableCell align="right">Total Earned</TableCell>
-            <TableCell align="right">User Type</TableCell>
-            <TableCell align="right">Status</TableCell>
+            <TableCell>{t("dashboard.users.usersTable.userAddress")}</TableCell>
+            <TableCell align="right">{t("dashboard.users.usersTable.emailAddress")}</TableCell>
+            <TableCell align="right">{t("dashboard.users.usersTable.items")}</TableCell>
+            <TableCell align="right">{t("dashboard.users.usersTable.rentals")}</TableCell>
+            <TableCell align="right">{t("dashboard.users.usersTable.totalSpent")}</TableCell>
+            <TableCell align="right">{t("dashboard.users.usersTable.totalEarned")}</TableCell>
+            <TableCell align="right">{t("dashboard.users.usersTable.userType")}</TableCell>
+            <TableCell align="right">{t("dashboard.users.usersTable.status")}</TableCell>
           </TableRow>
         </TableHead>
         <TableBody classes={{ root: classes.table__body }}>

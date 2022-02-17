@@ -1,9 +1,18 @@
 import React from "react";
-import { ActiveRentalIcon, NewRentalsIcon } from "../../../../UI/Icons/Icons";
+import {
+  NewRentalsIcon,
+  TotalFundsIcon,
+} from "../../../../UI/Icons/Icons";
 import classes from "./SummaryCard.module.css";
 
-const SummaryCard = ({card, index}) => {
-    
+const SummaryCard = ({ card, index }) => {
+  const CardIcon =
+    card.title === "New Rentals" || card.title === "Rentals About To End" ? (
+      <NewRentalsIcon />
+    ) : (
+      <TotalFundsIcon />
+    );
+
   return (
     <div className={classes.summary_card_wrapper} key={index}>
       <div className={classes.card_content_wrapper}>
@@ -17,9 +26,7 @@ const SummaryCard = ({card, index}) => {
           </h3>
         </div>
       </div>
-      <div className={classes.card_icon_wrapper}>
-        <NewRentalsIcon />
-      </div>
+      <div className={classes.card_icon_wrapper}>{CardIcon}</div>
     </div>
   );
 };

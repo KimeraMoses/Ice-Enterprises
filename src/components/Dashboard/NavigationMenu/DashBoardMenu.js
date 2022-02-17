@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 //===MUI IMPORTS===
 import NewUnivIcon from "@material-ui/icons/AccountBalance";
 import {
@@ -83,9 +83,11 @@ const DashBoardMenu = (props) => {
   return (
     <div className={classes.dashboard_menu_wrapper}>
       <div className={classes.dashboard_menu_logo_wrapper}>
-        <div className={classes.dashboard_logo}>
-          <IceLogo />
-        </div>
+        <Link to="/">
+          <div className={classes.dashboard_logo}>
+            <IceLogo />
+          </div>
+        </Link>
       </div>
       {UserMenuItems.map((menu, index) => {
         return (

@@ -8,6 +8,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import classes from "./TransactionsTable.module.css";
 import { useSelector } from "react-redux";
+import { useTranslation } from "react-i18next";
 const TableArray = [
   {
     date: "Jan 24th, 2022",
@@ -39,16 +40,17 @@ const TableArray = [
 const TransactionTable = (props) => {
   const isLoading = true;
   const { currentTableData } = props;
+  const { t } = useTranslation();
 
   return (
     <TableContainer>
       <Table className={classes.table} aria-label="customized table">
         <TableHead classes={{ root: classes.table_head }}>
           <TableRow classes={{ root: classes.table__head_row }}>
-            <TableCell>Date</TableCell>
-            <TableCell align="right">Transferred From</TableCell>
-            <TableCell align="right">Transferred To</TableCell>
-            <TableCell align="right">Amount</TableCell>
+            <TableCell>{t("dashboard.transactions.transactionsTable.date")}</TableCell>
+            <TableCell align="right">{t("dashboard.transactions.transactionsTable.from")}</TableCell>
+            <TableCell align="right">{t("dashboard.transactions.transactionsTable.to")}</TableCell>
+            <TableCell align="right">{t("dashboard.transactions.transactionsTable.amount")}</TableCell>
           </TableRow>
         </TableHead>
         <TableBody classes={{ root: classes.table__body }}>

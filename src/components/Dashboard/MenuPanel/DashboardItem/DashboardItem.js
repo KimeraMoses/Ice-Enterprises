@@ -18,14 +18,14 @@ const DashboardItem = () => {
       </div>
       <div className={classes.chart_popular_data_wrapper}>
         <div className={classes.rental_chart_wrapper}>
-          <h4>Total Rentals This Month</h4>
+          <h4>{t("dashboard.dashboard.toMonthlyRental.heading")}</h4>
 
           <div className={classes.rental_chart}>
             <img src={RentalChart} alt="" />
           </div>
         </div>
         <div className={classes.popular_rentals_wrapper}>
-          <h4>Most Popular Rental Items</h4>
+          <h4>{t("dashboard.dashboard.mostPopularRentals.heading")}</h4>
           <PopularRental />
           <PopularRental />
           <PopularRental />

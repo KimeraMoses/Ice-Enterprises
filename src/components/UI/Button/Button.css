@@ -15,6 +15,7 @@
   overflow: hidden;
   text-transform: capitalize;
   box-shadow: rgb(64, 169, 255) 0px 20px 30px -10px;
+  user-select: none;
 }
 
 
@@ -42,7 +43,7 @@
 }
 
 .Btn--large {
-  padding: 12px 18px;
+  padding: 10px 18px;
   font-size: 20px;
 }
 .Btn--fullWidth {

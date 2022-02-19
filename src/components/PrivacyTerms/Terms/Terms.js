@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "../Header";
 import classes from "../PrivacyTerms.module.css";
 
 const Terms = () => {
   const { t } = useTranslation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={classes.privacy_policy_wrapper}>
       <div className={classes.privacy_policy_wrapper_inner}>

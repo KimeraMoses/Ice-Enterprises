@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center bottom;
   background-color: #000000;
-  padding: 210px 80px 100px;
+  padding: 210px 80px 20px;
   color: #ffffff;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -25,7 +25,7 @@
 }
 
 .hero_content_header img {
-  width: 200px;
+  width: 380px;
 }
 .description_wrapper {
   width: 80%;
@@ -33,10 +33,12 @@
 }
 .description_wrapper p {
   font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
 }
 .hero_cards_wrapper {
   display: flex;
-  padding: 0px 0 20px;
+  padding: 0px 0 0px;
   width: 100%;
 }
 .hero_cards_wrapper::-webkit-scrollbar {
@@ -53,7 +55,10 @@
     width: 100%;
   }
   .hero_content_wrapper{
-      padding-top: 10px;
+      padding-top: 30px;
+  }
+  .hero_content_header img {
+    width: 360px;
   }
 }
 

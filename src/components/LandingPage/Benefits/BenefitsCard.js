@@ -26,7 +26,7 @@ const BenefitsCard = ({ cardData, key }) => {
         }}
       >
         <div className={classes.benefits_content_wrapper}>
-          <h5>{title}</h5>
+          <h4>{title}</h4>
           <div className={classes.benefits_list_wrapper}>
             <ul>
               {list.map((item, index) => {
@@ -35,7 +35,7 @@ const BenefitsCard = ({ cardData, key }) => {
             </ul>
           </div>
           <div className={classes.card_actions_wrapper}>
-            <Button >
+            <Button buttonSize="Btn--large">
               {btnText}
             </Button>
           </div>

@@ -13,6 +13,8 @@
 .hero_card h4{
     font-size: 20px;
     font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .hero_card p{
     font-size: 16px;

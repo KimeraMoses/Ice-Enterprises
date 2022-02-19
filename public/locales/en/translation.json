@@ -15,14 +15,14 @@
         "description": "Ice Enterprises offers a safe, secure, and frictionless platform that allows OWNERS of ICE Poker Wearables to rent their NFTs to PLAYERS at rates they set on a short-, medium- or long-term basis."
       },
       "howitWorks": {
-        "heading": "How It Works?",
+        "heading": "How It Works",
         "cards": [
           {
-            "title": "Owner Action",
-            "description": "Connect your preferred wallet and list an available wearable for rent. OWNERS are free to set the rental fee (min. 50 ICE per day) and have a variety of rental terms to choose from. A 4% service fee is assessed and deducted automatically from the daily rental fees you will receive."
+            "title": "Owners",
+            "description": "Connect your preferred wallet and list wearables you would like to rent. OWNERS are free to set the rental fee (min. 50 ICE per day) and have a variety of rental terms to choose from. A 4% service fee is assessed and deducted automatically from the daily rental fees you will receive."
           },
           {
-            "title": "Player Action",
+            "title": "Players",
             "description": "Scroll through the list of available items and click on the wearable you’d like to rent. Simply connect your wallet to submit payment. A 2% rental fee is added to the total rental cost."
           },
           {
@@ -31,7 +31,7 @@
           },
           {
             "title": "Notification & Delegation",
-            "description": "OWNERS are notified of rental requests, and have 3 hours to release the rental upon server reset to PLAYERS. If a rental is not assigned within the allotted time frame, all funds are automatically and immediately returned to that PLAYER (including the service fee)."
+            "description": "OWNERS are notified of rental requests, and have 3 hours to release the rental upon server reset to PLAYERS. If a rental is not assigned within the allotted time frame, all funds are automatically and immediately returned to that PLAYER (including the service fees)."
           }
         ]
       },
@@ -42,7 +42,7 @@
             "title": "Owner",
             "summary": "I'm looking to rent my wearable.",
             "list": [
-              "Generate more ICE per day/wearable while obtaining more consistent returns.",
+              "Generate additional ICE per day while obtaining more consistent returns.",
               "Convenience! With automated payments, there is no need to check-in with a renting PLAYER each day.",
               "Added ICE utility across the ecosystem."
             ],
@@ -52,7 +52,7 @@
             "title": "Player",
             "summary": "I'm looking to rent a wearable.",
             "list": [
-              "Safe and secure approach! If a wearable is ever undelegated, remaining funds are sent back to your wallet.",
+              "Safe and secure! If a wearable is ever undelegated, remaining funds are sent back to your wallet.",
               "Certainty that OWNER actually has an available wearable for delegation.",
               "Browse a library of available options instead of spamming discord against competition."
             ],
@@ -65,7 +65,7 @@
         "list": [
           {
             "title": "Do my wearables ever leave my wallet?",
-            "description": "No. We serve strictly as an intermediary between OWNERS and PLAYERS looking to broker a rental relationship. Your wearables never leave your wallet."
+            "description": "No. We serve strictly as an intermediary between OWNERS and PLAYERS. Your wearables never leave your wallet."
           },
           {
             "title": "What are the fees for using the service?",
@@ -133,7 +133,7 @@
             },
             "sidehustle": {
               "title": "Side-Hustle + Fun Fact",
-              "value": "COO Tech Startup + Finished 30 Marathons"
+              "value": "Tech Startup COO + Finished 30 Marathons"
             }
           }
         ]

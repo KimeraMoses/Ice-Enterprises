@@ -1,0 +1,62 @@
+.notifications__wrapper{
+    background-color: #262626;
+    max-width: 485px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Poppins";
+
+}
+.notifications__wrapper h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+
+}
+.notification__bar{
+    /* width: 100%; */
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #000000;
+    margin: 10px 0;
+}
+
+.notification__bar h4{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.notification__bar h5{
+    color: #8C8C8C;
+    font-size: 12px;
+}
+
+.notification__status{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #262626;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notifications__status_icon{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+.notifications__status_icon.notifications__status_on{
+    background-color: #389E0D;
+}
+.notifications__status_icon.notifications__status_off{
+    background-color: #F5222D;
+}
